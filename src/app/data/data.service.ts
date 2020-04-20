@@ -8,13 +8,12 @@ import { HttpClient } from "@angular/common/http";
 })
 export class DataService {
 
-  constructor(private http: HttpClient){}
+  //constructor(private http: HttpClient){}
 
-  getSubscriptionTypes(); observable<string[]> {
+ // getSubscriptionTypes(); observable<string[]> {
     
   }
 
-  postUserSettingsForm(userSettings: UserSettings): Observable<any> {
-    return this.http.post('https://putsreq.com/jQAcaclDlF10rtaLZ7Sv', userSettings);
-  }
-}
+  // postUserSettingsForm(userSettings: UserSettings): Observable<any> {
+  //   return this.http.post('https://putsreq.com/jQAcaclDlF10rtaLZ7Sv', userSettings);
+  // }
